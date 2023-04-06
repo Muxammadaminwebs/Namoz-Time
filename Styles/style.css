@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/photo_2022-09-23_18-09-46.jpg");
+    overflow-x: hidden;
+    
+   
+}
+
+.select{
+    margin-top: 10px;
+    width: 250px !important;
+}
+.wey{
+    width: 90%;
+    height: 3px;
+    background-color: white;
+    margin: 50px auto 50px auto !important;
+}
+.cards{
+    gap: 10px;
+    margin: 150px auto !important;
+    justify-content: center;
+}
+.namozVaqti{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.card{
+    padding: 10px;
+    width: 300px;
+    background: rgba(133, 121, 121, 0.334);
+ 
+}
+.card img:hover{
+    transform: scale(0.93);
+    
+}
+.card:hover{
+    transform: scale(0.99);
+       box-shadow: 2px 2px 20px white;
+}
+.rowscard{
+    display: flex !important;
+    justify-content: center;
+}
+.xaflalikbtn{
+    width: 250px !important;
+    padding: 10px 24px !important;
+    font-size: 24px;
+    font-weight: bold;
+}
+.oylikbtn{
+        width: 250px !important;
+        padding: 10px 24px !important;
+            font-size: 24px;
+            font-weight: bold;
+}
+.xaftalik{
+    display: none;
+    background-color: rgba(255, 0, 0, 0.95);
+    color: white;
+    width: 90% !important;
+    margin: 50px  auto !important;
+}
+.tr{
+    color: white;
+    font-weight: bold;
+}
+.xaftalik2{
+    display: block !important;
+}
+.month-oy{
+    background-color: blue;
+}
+.oylik{
+    display: none;
+    width: 90%;
+    margin: auto;
+}
+.oylik2{
+    display: block;
+}
+.xaflalikbtn{
+    width: 200px;
+    color: white;
+}
+.oylikbtn{
+    width: 200px;
+    color: white;
+}
+.window{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.yoruq{
+    top: -40px;
+}
+.oyquyosh{
+    position: absolute;
+    right:320px;
+    top: 20px;
+}
+.oyquyosh i{
+    font-size: 24px;
+    color: white;
+}
+.oy{
+    display: none;
+}
+.bodyoq{
+    background: green !important;
+}
+.oychiq{
+    display: block;
+}
+@media only screen and (max-width: 768px){
+
+    body {
+        background-image: url("../images/photo_2022-09-23_18-09-46.jpg");
+    }
+.container{
+    width: 720px !important;
+    margin: auto;
+}
+h1{
+    font-size: 42px;
+}
+.cards{
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card{
+    width: 250px;
+    background-color: green;
+ }
+.row:nth-child(2) {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+ }
+.rows{
+    margin-left: 100px;
+}
+.hudud{
+    display: flex;
+    justify-content: center;
+}
+.shaxar {
+    display: flex;
+    width: 100% !important;
+    margin-left: -50px;
+}
+.colTwo {
+    width: 100% !important;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+.rowscard {
+    display: flex;
+    flex-direction: column;
+}
+.select {
+    width: 80% !important;
+    margin-left: 50px;
+}
+.card img:hover {
+    transform: scale(0.93);
+}
+.card:hover {
+    transform: scale(0.99);
+}
+.mintaqa{
+    padding-left: 20px;
+}
+.yoruq {
+    top: -40px;
+    color: black;
+    background: black;
+}
+
+.oyquyosh {
+    position: absolute;
+    right: 150px;
+    top: 20px;
+
+}
+
+.oy {
+    display: none;
+}
+
+}
+
+
+
+
